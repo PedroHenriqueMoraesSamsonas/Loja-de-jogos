@@ -1,0 +1,8 @@
+.cent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.espaca{
+    margin-right: 20px;
+}

@@ -1,0 +1,64 @@
+.bord-jogos{
+    border: solid 5px black ;
+    max-width: min-content;
+    max-height: min-content;
+    position: relative;
+    margin-left: 50px;
+    background-color: white;
+   
+}
+
+.game{
+  border: solid 2px black;
+  width:110px ;
+  height: 110px;
+  position: relative;
+  top: 22%;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 360%;
+  margin-left: 80px;
+  z-index: -2;
+}
+.game > img{
+  border-radius: 360%;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  transition: all .2s;
+}
+.game:hover{
+  border: transparent;
+}
+.game > img:hover{
+  border-radius: 360%;
+  width: 260px;
+  height: 260px;
+  transition: all .2s;
+  z-index: 2;
+}
+.combo-jogos{
+  display: flex;
+  justify-content: space-between ;
+ position: fixed;
+ top:20%;
+ left: 10%;
+ z-index: -2;
+}
+.escritas{
+  position: relative;
+  top:70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.escritas p{
+  color: white;
+  font-size: 25px;
+  opacity: 100%;
+}
